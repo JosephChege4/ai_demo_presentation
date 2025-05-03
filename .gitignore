@@ -10,6 +10,9 @@
 !.yarn/releases
 !.yarn/versions
 
+/Infowars
+/merging_index
+
 # testing
 /coverage
 
