@@ -1,0 +1,30 @@
+# Core libraries
+llama-index
+llama-index-embeddings-huggingface
+openai
+
+# Feedback and evaluation
+trulens
+trulens-eval
+trulens-apps-llamaindex
+trulens-apps-langchain
+trulens-providers-openai
+
+# Reranking / Embedding Models
+sentence-transformers
+torch
+
+# Environment variable loading
+python-dotenv
+
+# Jupyter (optional if you're using notebooks)
+notebook
+nest-asyncio
+matplotlib
+
+# PDF support (if you're loading your Xenoblade PDF directly)
+pypdf
+
+# Safety net: avoid broken builds on edge versions
+httpx
+numpy
