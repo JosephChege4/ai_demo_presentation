@@ -42,7 +42,7 @@ By making the model’s behavior visible, this demo helps bridge the gap between
 
 ## Key Concepts
 
-- **AI doesn’t invent logic, it kist amplifies existing ones.**
+- **AI doesn’t invent logic, it just amplifies existing ones.**
 - **Training data is political.**
 - **“Objectivity” in AI is often just well-disguised bias.**
 - **Bias isn’t always about intent, it’s often structural.**
