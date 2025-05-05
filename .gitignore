@@ -13,8 +13,8 @@
 /SourceGroupA
 /SourceGroupB
 /merging_index
-./merging_index_GroupA
-./merging_index_GroupA
+/merging_index_GroupA
+/merging_index_GroupB
 
 # testing
 /coverage
