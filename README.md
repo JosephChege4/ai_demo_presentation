@@ -4,7 +4,7 @@
 
 ## Overview
 
-This is a classroom demonstration designed to expose how artificial intelligence models can internalize the biases of their training data. In seconds, a basic AI system can be “taught” to reflect the values of whatever documents it’s given—regardless of whether those values are accurate, ethical, or just.
+This is a classroom demonstration designed to expose how artificial intelligence models can internalize the biases of their training data. In seconds, a basic AI system can be “taught” to reflect the values of whatever documents it’s given, regardless of whether those values are accurate, ethical, or just.
 
 This project is not about building a helpful chatbot. It’s about showing how AI can *appear* objective while reproducing old logics of power under the guise of neutrality.
 
@@ -20,7 +20,7 @@ This demo was created for a class project where students were asked to design a 
 
 1. A group of ideologically loaded PDFs (Group A or Group B) is fed into a basic AI model.
 2. The system is prompted with ethically or politically charged questions from `generated_questions.txt`.
-3. The model responds—often confidently—even when trained on skewed data.
+3. The model responds confidently, even when trained on skewed data.
 4. By switching source sets, users can compare how drastically tone, values, and assumptions shift depending on the training material.
 
 ## Source Groups
@@ -32,7 +32,7 @@ Due to file size and content licensing, the actual PDF files are **excluded from
 
 ## Why This Approach?
 
-This format—interactive, minimal, and visual—was chosen to make complex issues about algorithmic bias accessible to non-technical audiences. It shows in real-time that:
+This format, interactive, minimal, and visual, was chosen to make complex issues about algorithmic bias accessible to non-technical audiences. It shows in real-time that:
 
 - **Machine learning is not neutral.**
 - **AI systems are only as fair as the data we give them.**
@@ -42,10 +42,10 @@ By making the model’s behavior visible, this demo helps bridge the gap between
 
 ## Key Concepts
 
-- **AI doesn’t invent logic—it amplifies existing ones.**
+- **AI doesn’t invent logic, it kist amplifies existing ones.**
 - **Training data is political.**
 - **“Objectivity” in AI is often just well-disguised bias.**
-- **Bias isn’t always about intent—it’s often structural.**
+- **Bias isn’t always about intent, it’s often structural.**
 
 This project draws from:
 - *Artificial Unintelligence* by Meredith Broussard
@@ -78,8 +78,8 @@ jupyter notebook
 
 You have two demo notebooks:
 
-* `AI_Presentation_GroupA.ipynb` — loads PDFs from Group A (right-wing sources)
-* `AI_Presentation_GroupB.ipynb` — loads PDFs from Group B (critical/academic sources)
+* `AI_Presentation_GroupA.ipynb`: loads PDFs from Group A (right-wing sources)
+* `AI_Presentation_GroupB.ipynb`: loads PDFs from Group B (critical/academic sources)
 
 Each file performs the following steps:
 
@@ -129,7 +129,7 @@ You can modify or add your own questions to test how different datasets affect t
 
 ## Limitations
 
-This is a prototype designed for a five-minute educational demo. The model uses relatively simple tools and does not represent a production system. Its value is in revealing how AI outputs are shaped—not in optimizing or correcting them.
+This is a prototype designed for a five-minute educational demo. The model uses relatively simple tools and does not represent a production system. Its value is in revealing how AI outputs are shaped, not in optimizing or correcting them.
 
 ## Acknowledgments
 
