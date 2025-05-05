@@ -14,7 +14,7 @@ The driving question behind this project is:
 
 **Can AI be re-coded to serve justice, or does it inevitably reproduce existing systems of control?**
 
-This demo was created for an “Un-Conference” class project where students were asked to design a public-facing awareness campaign related to their research. My research focuses on AI bias and algorithmic injustice. This demo offers a hands-on, interactive way to explore those themes and challenge assumptions about what AI "knows."
+This demo was created for a class project where students were asked to design a public-facing awareness campaign related to their research. My research focuses on AI bias and algorithmic injustice. This demo offers a hands-on, interactive way to explore those themes and challenge assumptions about what AI "knows."
 
 ## What the Demo Shows
 
@@ -83,12 +83,12 @@ You have two demo notebooks:
 
 Each file performs the following steps:
 
-1. Loads the source PDFs from a directory like `./SourceGroupA/` or `./SourceGroupB/`.
+1. Loads the source PDFs from a hidden directory like `./SourceGroupA/` or `./SourceGroupB/`.
 2. Merges all documents into one training corpus.
 3. Builds a queryable AI index using LlamaIndex.
 4. Asks each question from `generated_questions.txt` and displays the responses.
 
-## 🛠️ How to Add Your Own Sources
+## How to Add Your Own Sources
 
 1. Create a folder inside the project directory called `SourceGroupC/` (or reuse A or B).
 2. Add your PDF files there.
